@@ -21,7 +21,7 @@ from setuptools import find_packages, setup
 
 # ==============  version definition  ==============
 
-PPDET_VERSION = "0.0.0"
+PPDET_VERSION = "2.7.1"
 
 
 def parse_version():
@@ -115,8 +115,8 @@ if __name__ == "__main__":
         description='Object detection and instance segmentation toolkit based on PaddlePaddle',
         long_description=readme(),
         long_description_content_type='text/markdown',
-        url='https://github.com/PaddlePaddle/PaddleDetection',
-        download_url='https://github.com/PaddlePaddle/PaddleDetection.git',
+        url='https://github.com/i2kconnect/PaddleDetection',
+        download_url='https://github.com/i2kconnect/PaddleDetection.git',
         keywords=['ppdet paddle ppyolo'],
         classifiers=[
             'Intended Audience :: Developers',
